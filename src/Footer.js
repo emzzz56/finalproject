@@ -1,4 +1,4 @@
-function FOOTER(props) {
+function Footer(props) {
     return (
         <footer>
             <div className="container">
@@ -38,4 +38,4 @@ function FOOTER(props) {
     );
 }
 
-export default FOOTER;
+export default Footer;

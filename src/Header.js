@@ -1,4 +1,6 @@
-function HEADER(props) {
+import CallToAction from './CallToAction';
+
+function Header(props) {
     return (
         <header>
             <div className="container">
@@ -7,7 +9,7 @@ function HEADER(props) {
                         <h1>Little Lemon</h1>
                         <h2>Chicago</h2>
                         <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served  with a modern twist</p>
-                        <a href="" className="btn">Reserve a Table</a>
+                       <CallToAction href="/booking" st="Reserve a Table" />
                     </div>
                     <div className="col-4 float-end">
                         <div style={{
@@ -20,4 +22,4 @@ function HEADER(props) {
     );
 }
 
-export default HEADER;
+export default Header;

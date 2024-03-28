@@ -3,12 +3,12 @@ function NAV(props){
         <nav>
             <img src={'/Logo.svg'} alt="little lemon" />
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Order Online</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/booking">Reservations</a></li>
+                <li><a href="/order">Order Online</a></li>
+                <li><a href="/login">Login</a></li>
             </ul>
         </nav>
     );
