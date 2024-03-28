@@ -264,6 +264,22 @@ footer a{
   text-decoration: none;
 }
 
+form{
+  display: grid;
+  max-width: 300px;
+  gap: 20px;
+  margin: 85px auto;
+}
+
+input, select{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #DDD;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
 @media(max-width: 776px) {
 
   nav,

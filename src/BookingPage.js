@@ -1,8 +1,10 @@
+import BookingForm from "./BookingForm";
+
 function BookingPage(props) {
     return (
-        <div>
-            TEST
-        </div>
+        <>
+        <BookingForm rtime={props.rtime} />
+        </>
     );
 }
 
